@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "752252554103",
+    "project_id": "curricularproject-3faeb",
+    "storage_bucket": "curricularproject-3faeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752252554103:android:d428f9bd98a57ffd882f72",
+        "android_client_info": {
+          "package_name": "com.example.Curricular_Practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752252554103-7bu2jqrfvme9qroveq5gak1mg7unqk6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Curricular_Practice",
+            "certificate_hash": "320d9093c88af2f2d9ceda89b80774be7ef0fe86"
+          }
+        },
+        {
+          "client_id": "752252554103-7vn4vhrmj7lmf0ko73gieil06k9ugq37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNKJeAsylayWmhtl3YGNNwEKUpHKAUrNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752252554103-7vn4vhrmj7lmf0ko73gieil06k9ugq37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

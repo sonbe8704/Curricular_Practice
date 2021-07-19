@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <ImageButton
+        android:id="@+id/btn_back_curri_to_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <LinearLayout
+        android:id="@+id/linear_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이름" />
+
+        <TextView
+            android:id="@+id/tv_univ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="university" />
+
+        <TextView
+            android:id="@+id/tv_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="과+학번" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_curricular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
